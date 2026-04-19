@@ -3,55 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/index.css">
+    <link rel="stylesheet" href="./src/CSS/global.css">
     <title>GESTOR ACADEMICO</title>
 </head>
 <body>
-    <main>
-        <nav>
-            <ul class="menu">
-                <li><a href="#index.html">inicio</a></li>
-                <li><a href="detalle.html">Detalle</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="perfil.html">Perfil</a></li>
-            </ul>
-        </nav>
         <header>
-            <h1 class="titulo">GESTOR ACADEMICO</h1>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="detalle.html">Detalle</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="Consejos.html">Consejos</a>
+                <a href="perfil.html">Perfil</a>
+            </nav>
         </header>
-            <h2 class="titulo">¡Bienvenido al gestor académico!</h2>
-            <p class="texto">En este gestor académico, podrás gestionar tus cursos, asignaturas y estudiantes de manera eficiente. Utiliza el menú para navegar por las diferentes secciones y administrar tu información académica.</p>
-        <div>
-            <header>
-                <h3>Proyectos</h3>
-            </header>
+            <main>
+                <div class="bienvenida">
+                <h1>GESTOR ACADEMICO</h1>
+                <h2>¡Bienvenido al gestor académico!</h2>
+                <p>En este gestor académico, podrás gestionar tus recursos...</p>
+                </div>
+        <section class="cartagrande">
+            <div class="carta">
+                <div class="cartaencabezado">
+                    <svg width="24" height="24" viewBox="0 0 100 90">
+                        <path d="M4 20 L4 72 Q4 76 8 76 L92 76 Q96 76 96 72 L96 28 Q96 24 92 24 L50 24 L44 16 Q42 14 40 14 L8 14 Q4 14 4 18 Z"
+                        fill="none" stroke="#3B5BDB" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Proyectos</h3>
+                </div>
                 <p>12</p>
                 <p>PROYECTOS TOTALES</p>
-        </div>
-
-            <div>
-                <header>
-                    <h3>Tareas</h3>
-                </header>
+            </div>
+            <div class="carta">
+                <div class="cartaencabezado">
+                    <svg width="24" height="24" viewBox="0 0 65 50"
+                    stroke="#5A6285" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                    <polyline points="0,8 5,14 14,2" stroke-width="3"/>
+                    <line x1="22" y1="8" x2="60" y2="8" stroke-width="3"/>
+                    <polyline points="0,38 5,44 14,32" stroke-width="3"/>
+                    <line x1="22" y1="38" x2="60" y2="38" stroke-width="3"/>
+                    </svg>
+                <h3>Tareas</h3>
+                </div>
                 <p>05</p>
                 <p>TAREAS PENDIENTES</p>
             </div>
-            
-            <div>
-                <header>
-                    <h3>Mensajes</h3>
-                </header>
+            <div class="carta">
+                <div class="cartaencabezado">
+                    <svg width="24" height="24" viewBox="0 0 80 58"
+                    fill="none" stroke="#5A6285" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="0" y="0" width="80" height="58" rx="6" stroke-width="3.5"/>
+                    <polyline points="0,4 40,34 80,4" stroke-width="3.5"/>
+                    </svg>
+                <h3>Mensajes</h3>
+                </div>
                 <p>04</p>
-                <P>MENSAJES PENDIENTES</P>
+                <p>MENSAJES PENDIENTES</p>
             </div>
-                <header>
-                    <h2>Novedades</h2>
-                </header>
-                <ul>
-                    <li>Se envio una tarea hace 9hs</li>
-                    <li>Se creo un proyecto hace 11hs</li>
-                    <li>Inicio de sesion el 11/12</li>
-                </ul>
+        </section>
+
+        <section>
+            <div class="novedades">
+            <h2>Novedades</h2>
+            <ul>
+                <li>Se envió una tarea hace 9hs</li>
+                <li>Se creó un proyecto hace 11hs</li>
+                <li>Inicio de sesión el 11/12</li>
+            </ul>
+            </div>
+        </section>
     </main>
+    <footer>
+            <p>2026 | GESTOR ACADEMICO - Plataforma de Gestión Académica</p>
+            <p>Desarrollado por: [Grupo 11]</p>
+        </footer>
 </body>
 </html>
