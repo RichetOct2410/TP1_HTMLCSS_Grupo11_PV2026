@@ -1,39 +1,52 @@
-.titulo {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: sans-serif;
-    color:#000000;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.carta{
+    flex: 1;
+    background: white;
+    border: 0.5px solid rgba(0,0,0,0.12);
+    border-radius: 12px;
+    border-left: 3px solid #929091;
+    border-radius: 0 12px 12px 0;
+    padding: 1.1rem 1.25rem 1rem;
+    position: relative;
 }
-.texto {
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#313031;
-    text-align: center;
+.carta:hover{
+    border-left: 3px solid #4F46E5;
+    box-shadow: 0 4px 6px #C9C6C7;
+    cursor: pointer;
+}
+.cartagrande{
+    display: flex;
+    gap: 1rem;
+}
+.cartaencabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 
-.menu{
+.novedades {
+    background: white;
+    border: 0.5px solid rgba(0,0,0,0.12);
+    border-left: 3px solid #929091;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
     display: flex;
-    gap: 20px;           
-    list-style: none;    
-    padding: 0;
-    margin: 0;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem auto;
+    max-width: 500px;
 }
-nav {
-    background-color: none;
+.novedades:hover {
+    border-left: 3px solid #4F46E5;
+    box-shadow: 0 4px 6px #C9C6C7;
+    cursor: pointer;
 }
-a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-a:hover {
-    color: #007BFF;
-}
-h3 {
-    font-size: 20px;
-    font-family: sans-serif;
-    color:#000000;
+main {
+    margin: 55px;
 }
