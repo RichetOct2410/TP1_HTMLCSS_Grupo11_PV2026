@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="./src/CSS/index.css">
     <link rel="stylesheet" href="./src/CSS/global.css">
+    <link rel="stylesheet" href="./src/CSS/detalle.css">
     <title>GESTOR ACADEMICO - DETALLE</title>
 </head>
 <body>
-    <main>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">inicio</a></li>
-                <li><a href="detalle.html">Detalle</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="perfil.html">Perfil</a></li>
-            </ul>
-        </nav>
-
-        <header>
+    <header>
+    <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="detalle.html">Detalle</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="Consejos.html">Consejos</a>
+                <a href="perfil.html">Perfil</a>
+            </nav>   
+        </header>
+            <main>
+             <div class="bienvenida">
             <h1 class="titulo">Detalle de Proyectos:</h1>
+            </div>
         </header>
         <section class="cartagrande">
             <div class="carta">
@@ -115,36 +116,37 @@
         <ul> <li><a href="#">Inteligencia Artificial </a></li></ul>
         </div>
         <hr>
-        <div class="carta">
-        <h3 class="titulo">Equipo de Trabajo</h3>
-        <table border="1">
-            <tr>
-                <td><b>Integrante</b></td>
-                <td><b>Responsabilidad / Rol</b></td>
-            </tr>
-            <tr>
-                <td>Victor Efimov</td>
-                <td>Desarrollo de Interfaz Principal (Dashboard)</td>
-            </tr>
-            <tr>
-                <td>Luciana Cardozo</td>
-                <td>Maquetado de Explorador de Proyectos</td>
-            </tr>
-            <tr>
-                <td>Nicolás Azamor</td>
-                <td>Maquetado de Vista Individual de Proyecto</td>
-            </tr>
-            <tr>
-                <td>Jazmin Figueroa</td>
-                <td>Desarrollo de Sección Perfil de Usuario</td>
-            </tr>
-            <tr>
-                <td>Octavio Ricci</td>
-                <td>Administración de Repositorio y Documentación (README)</td>
-            </tr>
-        </table>
+        <div class="cartagrande">
+            <div class="perfil">
+                <div class="icono">V</div>
+                <div><h3>Victor Efimov</h3><p>Desarrollo de Interfaz Principal</p></div>
+            </div>
+
+            <div class="perfil">
+                <div class="icono">L</div>
+                <div><h3>Luciana Cardozo</h3><p>Explorador de Proyectos</p></div>
+            </div>
+
+            <div class="perfil">
+                <div class="icono">N</div>
+                <div><h3>Nicolás Azamor</h3><p>Vista Individual de cada Proyecto</p></div>
+            </div>
+
+            <div class="perfil">
+                <div class="icono">J</div>
+                <div><h3>Jazmin Figueroa</h3><p>Desarrollo de Sección Perfil de Usuario</p></div>
+            </div>
+
+            <div class="perfil">
+                <div class="icono">O</div>
+                <div><h3>Octavio Ricci</h3><p>Administración de Repositorio y Documentación (README)</p></div>
+            </div>
         </div>
     </section>
     </main>
+     <footer>
+            <p>2026 | GESTOR ACADEMICO - Plataforma de Gestión Académica</p>
+            <p>Desarrollado por: [Grupo 11]</p>
+        </footer>
 </body>
 </html>
