@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: Manrope;
+    background-color: aliceblue;
+    color: black;
+    margin: 15px;
+}
+.titulo{
+    padding: 10px;
+    padding-right:5px;
+    font-size: 50px;
+    text-align: center;
+    line-height: normal;
+    font-weight: 1px;
+}
+.filtro{
+    font-size: 19px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #99d2ddbc;
+    border-radius: 5px;
+}
+.filtros{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.filtros option{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.contenedortarjeta{
+    display: flex;
+    padding: 20px;
+    gap:15px;
+}
+.tarjetas{
+    width: 250px;
+    padding: 15px;
+    border: 0.8px solid #99d2ddbc;
+    border-radius: 5px;
+    background-color: #99d2ddbc;
+    box-shadow: 0px 5px 10px rgba(13, 13, 13, 0.2);
+}
+.contenedortarjeta a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(6, 106, 139);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.referencia{
+    background-color: #99d2ddbc;  
+    text-align: center;
+    color: black;   
+    border-radius: 5px; 
+}
+.referencia a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.ima{
+    width:200px;
+    height:150px;
+}
+.botom{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #99d2ddbc;
+    color: black;
+    border-radius: 5px;
+}
