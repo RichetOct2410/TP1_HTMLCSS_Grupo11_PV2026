@@ -1,11 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Perfil de Usuario</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
+        body{
+            font-family: 'Manrope', sans-serif;
+            background-color: #ffe4ec;
+            margin: 15px;
+            color: #333;
+        }
+
+        header{
+            background-color: #f8a5c2;
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        nav a{
+            color: #5a2a3a;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 600;
+        }
+
+        section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        section h2{
+            grid-column: span 2;
+            text-align: center;
+            color: #d63384;
+        }
+
+        article{
+            background-color: #ffffff !important;
+            border: 2px solid #f8a5c2;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        article img{
+            border-radius: 10px; 
+            margin-bottom: 10px;
+        }
+
+        article h3{
+            color: #d63384;
+        }
+
+        article p{
+            color: #444;
+        }
+
+        footer{
+            background-color: #f8a5c2;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
 
     <header>
-        <h1>Plataforma de Gestión de Proyectos Educativos</h1>
+        <h1 style="color: black;">Plataforma de Gestión de Proyectos Educativos</h1>
+
         <nav>
             <a href="index.html">Inicio</a>
             <a href="proyectos.html">Proyectos</a>
@@ -18,67 +90,39 @@
         <section>
             <h2>Perfiles de Estudiantes</h2>
 
-            <!-- Jazmín -->
             <article>
                 <img src="src/img/img jaz.jpeg" width="120">
                 <h3>Jazmín Figueroa</h3>
                 <p><strong>Rol:</strong> Alumna</p>
-                <p>
-                    Soy estudiante del colegio y estoy cursando base de datos, álgebra y programación visual. 
-                    Me gusta usar la compu y aprender cosas nuevas, aunque algunas materias cuestan.
-                </p>
+                <p>Soy estudiante del colegio, estoy cursando programación visual.</p>
             </article>
 
-            <hr>
-
-            <!-- Luciana -->
             <article>
-                <img src="src/img/img luci.jpeg" alt="Foto de Luciana" width="120">
+                <img src="src/img/img luci.jpeg" width="120">
                 <h3>Luciana Cardozo</h3>
                 <p><strong>Rol:</strong> Estudiante Universitaria</p>
-                <p>
-                    Soy estudiante de la facultad y formo parte del proyecto ayudando en la parte técnica. 
-                    Tengo más experiencia en programación y sistemas.
-                </p>
+                <p>Soy estudiante de la facultad y ayudo en la parte técnica del proyecto.</p>
             </article>
 
-            <hr>
-
-            <!-- Nicolás -->
             <article>
-                <img src="src/img/imagen nico.jpeg" alt="Foto de Nicolás" width="120">
+                <img src="src/img/imagen nico.jpeg" width="120">
                 <h3>Nicolás Azamor</h3>
                 <p><strong>Rol:</strong> Alumno</p>
-                <p>
-                    Soy estudiante del colegio y estoy aprendiendo programación y base de datos. 
-                    Me gusta la informática pero todavía estoy practicando.
-                </p>
+                <p>Estoy aprendiendo programación y base de datos.</p>
             </article>
 
-            <hr>
-
-            <!-- Octavio -->
             <article>
-                <img src="src/img/img ricci.jpeg" alt="Foto de Octavio" width="120">
+                <img src="src/img/img ricci.jpeg" width="120">
                 <h3>Octavio Ricci</h3>
                 <p><strong>Rol:</strong> Alumno</p>
-                <p>
-                    Soy alumno del colegio y me gusta bastante la programación. 
-                    Suelo ayudar a mis compañeros en los trabajos y entiendo bien los temas de informática.
-                </p>
+                <p>Me gusta la programación y ayudar en los trabajos.</p>
             </article>
 
-            <hr>
-
-            <!-- Víctor -->
             <article>
-                <img src="src/img/img victor.jpeg" alt="Foto de Víctor" width="120">
+                <img src="src/img/img victor.jpeg" width="120">
                 <h3>Víctor Efimov</h3>
                 <p><strong>Rol:</strong> Alumno</p>
-                <p>
-                    Soy estudiante y me interesa mucho la informática. 
-                    Tengo bastante práctica en programación y trato de mejorar cada vez más.
-                </p>
+                <p>Tengo experiencia en programación y sigo practicando.</p>
             </article>
 
         </section>
